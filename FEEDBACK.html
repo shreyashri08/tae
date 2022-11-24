@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <title>Rate this app</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Consparicy Theory</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="FACTS.html">FACTS</a></li>
+                    <li><a href="FEEDBACK.html">FEEDBACK</a></li>
+                </ul>
+                <form action="feedback.php" method="POST">
+                    <div class="form">
+                        <h2>Feedback Here</h2>
+                        <input type="name" name="name" placeholder="Enter Name Here">
+                        <input type="email" name="email" placeholder="Enter Email Here">
+                        <select name="feedback" id="feedback">
+                            <option value="feedback">feedback</option>
+                            <option value="poor ">poor 😔</option>
+                            <option value="bad">bad 😐</option>
+                            <option value="can be improved">can be improved 🙂</option>
+                            <option value="good">good 😃</option>
+                            <option value="excellent">excellent 😍</option>
+                        </select>
+                        <button class="btnn"><a href="#">Send</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </form>
+
+</body>
+
+</html>
